@@ -20,7 +20,7 @@ export class AppComponent {
 
   getRoute(ticketsList: any[]) {
     const elements = ticketsList;
-    console.log("The inital array of tickets is : ", elements);
+    console.log("The inital array of tickets is : ", elements.join('|'));
     const copieElement = elements;
     const finalTab: any[] = [];
 
